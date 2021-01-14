@@ -1,5 +1,20 @@
 {
   "name": "STACKIT Theme",
   "about_url": "https://stackit.de/de/ueber-uns/",
-  "license_url": "https://github.com/STACKIT-Cloud/discourse-stackit-theme/blob/master/LICENSE.txt"
+  "license_url": "https://github.com/STACKIT-Cloud/discourse-stackit-theme/blob/master/LICENSE.txt",
+  "color_schemes": {
+    "STACKIT": {
+      "primary": "045462",
+      "secondary": "f8ec17",
+      "tertiary": "000000",
+      "quaternary": "c5c5c5",
+      "header_background": "045462",
+      "header_primary": "ffffff",
+      "highlight": "f8ec17",
+      "danger": "f44336",
+      "success": "4ab54f",
+      "love": "fa6c8d"
+    }
+
+  }
 }
