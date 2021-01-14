@@ -1,0 +1,280 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.monotype.com/
+*/
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  font-family: "MuseoSansW05", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.56;
+  color: #424242;
+  text-align: left;
+  background-color: #fff;
+}
+
+#footer {
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
+#center {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*
+TODO: We can change the main theme with these ":root" things. As a start all of them have the same color. 
+All of that should be replaced by individual class settings.
+*/
+:root {
+    --primary-medium: #424242;
+    --primary-very-low: #424242;
+    --primary-low: #424242;
+    --primary-low-mid: #424242;
+    --primary-med-or-secondary-high: #424242;
+    --primary-med-or-secondary-med: #424242;
+    --primary-high: #424242;
+    --primary-very-high: #424242;
+    --primary-high-or-secondary-low: #424242;
+    --secondary: #FFFFFF;
+    --tertiary-low: #EEEEEE;
+    --highlight: #CCCCCC;
+    --secondary-very-high: #CCCCCC;
+    --highlight-high: #CCCCCC;
+    --blend-primary-secondary-5: #CCCCCC;
+    --secondary-or-primary: #EEEEEE;
+}
+
+.badge-card .badge-contents .badge-info {
+  background-color: #f4f4f4;
+  color: #424242;
+    /*color: var(--primary);*/
+}
+
+.badge-card .badge-contents .badge-icon {
+  background-color: #f4f4f4;
+  color: #424242;
+}
+
+.badge-card {
+  /*background-color: var(--primary-very-low);*/
+  background-color: #f4f4f4;
+  color: #424242;
+}
+
+.badge-groups {
+    /*color: var(--primary-med-or-secondary-med);*/
+  background-color: #CCCCCC;
+  color: #424242;
+}
+
+.groups-boxes .group-box {
+  background-color: #CCCCCC;
+    /*color: var(--primary);*/
+}
+
+.group-details-container {
+  background-color: #f4f4f4;
+    /*background: var(--primary-very-low);*/
+}
+
+.groups-form.groups-notifications-form .control-instructions {
+    /*color: #3bdbf7;*/
+    color: #045462;
+}
+
+.settings .setting .setting-value .uploaded-image-preview {
+  background-color: #f4f4f4;
+    /*background-color: var(--primary-medium);*/
+}
+
+.settings .setting .setting-value {
+  /*background-color: #f4f4f4;*/
+}
+
+.settings .setting.overridden.string input[type="text"], .settings .setting.overridden.string input[type="password"], .settings .setting.overridden.string textarea {
+    /*background-color: var(--highlight-medium);*/
+  background-color: #f4f4f4;
+}
+
+.admin-controls .controls {
+    /*background: var(--primary-low);*/
+    background: #045462;
+    color: #FFFFFF;
+}
+
+.select-kit.multi-select .choices .selected-name {
+  background-color: #f4f4f4;
+/*    background: var(--primary-low);*/
+}
+
+.topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
+    color: #888888;
+}
+
+.topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
+    color: #000000;
+}
+
+.topic-list .topic-list-item-separator td span {
+  background-color: #f4f4f4;
+  color: #424242;
+}
+
+.names span a {
+    color: #424242;
+}
+
+.timeline-container .topic-timeline .start-date {
+    color: #424242;
+}
+
+.timeline-container .topic-timeline .timeline-ago {
+    color: #424242;
+}
+
+.timeline-container .topic-timeline .now-date {
+    color: #424242;
+}
+
+.topic-meta-data .post-info a {
+    color: #424242;
+}
+
+.badge-wrapper.bullet span.badge-category {
+    color: #424242;
+}
+
+.names .fa {
+    color: #424242;
+}
+
+.d-header-icons .icon:hover .d-icon, .d-header-icons .icon:focus .d-icon {
+    /*color: var(--primary-medium);*/
+    background-color: var(--header_background);
+    /*background-color: transparent;*/
+}
+
+.d-header-icons .icon:hover, .d-header-icons .icon:focus {
+    /*background-color: var(--primary-low);*/
+    background-color: var(--header_background);
+}
+
+.menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus, .menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
+    /*background-color: var(--highlight-medium);*/
+    background-color: #e5edef;
+}
+
+.btn-flat:hover {
+    background: #e5edef;
+}
+
+.badge-wrapper.bullet .d-icon {
+    color: #424242;
+}
+
+.btn .d-icon {
+    /*color: #045462;*/
+    color: #424242;
+    background: #CCCCCC;
+}
+
+.badge-wrapper.bullet .d-icon {
+    color: #888888;
+}
+
+.btn {
+    background-color: #f4f4f4;
+    color: #424242;
+}
+
+.btn-primary {
+    color: #045462;
+    background-color: #f8ec17;
+}
+
+nav.post-controls .actions button.create {
+    color: #045462;
+    background-color: #f8ec17;
+}
+
+.nav-pills, .nav-stacked {
+    background-color: #f8f8f8;
+    color: #424242;
+}
+
+.nav-pills>li a.active {
+    background-color: #a4a4a4;
+    color: #FFFFFF;
+}
+
+.nav-pills>li {
+    background-color: #f4f4f4;
+    color: #424242;
+}
+
+a.mention {
+    color: #FFFFFF;
+    background-color: #a4a4a4;
+}
+
+.topic-map section {
+    color: #FFFFFF;
+    background-color: #045462;
+}
+
+.topic-map a {
+    color: #FFFFFF;
+}
+
+.topic-map .map .number {
+    color: #FFFFFF;
+}
+
+.topic-map h4 {
+    color: #FFFFFF;
+}
+
+.topic-list th button .d-icon {
+    color: #424242;
+}
+
+.topic-list .topic-excerpt {
+    color: #424242;
+}
+
+topic-footer-buttons .pinned-button .reason, #topic-footer-buttons .topic-notifications-button .reason {
+    color: #045462;
+    font-weight: bold;
+}
+
+table th {
+    color: #424242;
+}
+
+.badge-posts[href] {
+    color: #424242;
+}
+
+.icon-thumbtack {
+    color: #424242;
+}
+
+.topic-list-icons .d-icon-thumbtack, .latest-topic-list .d-icon-thumbtack, .top-topic-list .d-icon-thumbtack, .topic-list .d-icon-thumbtack {
+    color: #424242;
+}
+
+.topic-list td {
+    color: #424242;
+}
