@@ -171,6 +171,9 @@ All of that should be replaced by individual class settings.
     background-color: var(--header_background);
 }
 
+.d-header-icons .icon:hover .d-icon, .d-header-icons .icon:focus .d-icon {
+    color: #FFFFFF;
+}
 .menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus, .menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
     /*background-color: var(--highlight-medium);*/
     background-color: #e5edef;
