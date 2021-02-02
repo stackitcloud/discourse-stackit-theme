@@ -179,6 +179,12 @@ All of that should be replaced by individual class settings.
     background-color: #e5edef;
 }
 
+.menu-panel .panel-body-bottom .btn {
+    /*background-color: var(--primary-very-low);
+    color: var(--primary-high);*/
+    background-color: var(--header_primary-low-mid);
+}
+
 .menu-panel .panel-body-bottom .btn:hover {
     /*background: var(--primary-low);*/
     /*color: var(--primary);*/
