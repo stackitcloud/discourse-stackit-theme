@@ -182,11 +182,11 @@ All of that should be replaced by individual class settings.
 .menu-panel .panel-body-bottom .btn:hover {
     /*background: var(--primary-low);
     color: var(--primary);*/
-  /*var(--header_background);*/
+  var(--header_background);
 }
 
 .user-menu .quick-access-panel .d-icon, .user-menu .quick-access-panel:hover .d-icon {
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .menu-panel .panel-body-bottom .btn:hover {
@@ -196,9 +196,12 @@ All of that should be replaced by individual class settings.
 }
 
 .user-menu .quick-access-panel li:hover, .user-menu .quick-access-panel li:focus {
-    /*background-color: var(--highlight-medium);*/
+    background-color: var(--highlight-medium);
 }
 
+.user-menu .quick-access-panel li a, .user-menu .quick-access-panel li button {
+    background-color: var(--highlight-medium);
+}
 
 .btn-flat:hover {
     background: #e5edef;
