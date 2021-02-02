@@ -160,6 +160,10 @@ All of that should be replaced by individual class settings.
     color: #424242;
 }
 
+.discourse-no-touch .sortable:hover {
+    background-color: #424242;
+}
+
 .d-header-icons .icon:hover .d-icon, .d-header-icons .icon:focus .d-icon {
     /*color: var(--primary-medium);*/
     background-color: var(--header_background);
