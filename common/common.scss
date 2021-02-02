@@ -162,13 +162,13 @@ All of that should be replaced by individual class settings.
 
 .d-header-icons .icon:hover .d-icon, .d-header-icons .icon:focus .d-icon {
     /*color: var(--primary-medium);*/
-    /*background-color: var(--header_background);*/
+    background-color: var(--header_background);
     /*background-color: transparent;*/
 }
 
 .d-header-icons .icon:hover, .d-header-icons .icon:focus {
     /*background-color: var(--primary-low);*/
-    /*background-color: var(--header_background);*/
+    background-color: var(--header_background);
 }
 
 .d-header-icons .icon:hover .d-icon, .d-header-icons .icon:focus .d-icon {
@@ -176,31 +176,7 @@ All of that should be replaced by individual class settings.
 }
 .menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus, .menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
     /*background-color: var(--highlight-medium);*/
-    /*background-color: #e5edef;*/
-}
-
-.menu-panel .panel-body-bottom .btn:hover {
-    /*background: var(--primary-low);
-    color: var(--primary);*/
-  var(--header_background);
-}
-
-.user-menu .quick-access-panel .d-icon, .user-menu .quick-access-panel:hover .d-icon {
-    color: #FFFFFF;
-}
-
-.menu-panel .panel-body-bottom .btn:hover {
-    /*background: var(--primary-low);
-    color: var(--primary);*/
-    /*background-color: #e5edef;*/
-}
-
-.user-menu .quick-access-panel li:hover, .user-menu .quick-access-panel li:focus {
-    background-color: var(--highlight-medium);
-}
-
-.user-menu .quick-access-panel li a, .user-menu .quick-access-panel li button {
-    background-color: var(--highlight-medium);
+    background-color: #e5edef;
 }
 
 .btn-flat:hover {
