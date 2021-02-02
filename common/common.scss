@@ -111,7 +111,7 @@ All of that should be replaced by individual class settings.
 .admin-controls .controls {
     /*background: var(--primary-low);*/
     background: #045462;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .select-kit.multi-select .choices .selected-name {
@@ -184,6 +184,11 @@ All of that should be replaced by individual class settings.
     /*color: var(--primary);*/
     background: #e5edef;
     color: #FFFFFF;
+}
+
+.user-menu .quick-access-panel .d-icon, .user-menu .quick-access-panel:hover .d-icon {
+    /*color: var(--primary-medium);*/
+    color: #000000;
 }
 
 .btn-flat:hover {
