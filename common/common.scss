@@ -192,6 +192,11 @@ All of that should be replaced by individual class settings.
     color: #FFFFFF;
 }
 
+div.menu-links-header button:hover, div.menu-links-header button:focus {
+    /*background-color: var(--highlight-medium);*/
+  background-color: #e5edef;
+}
+
 .user-menu .quick-access-panel .d-icon, .user-menu .quick-access-panel:hover .d-icon {
     /*color: var(--primary-medium);*/
     color: #000000;
