@@ -197,6 +197,11 @@ All of that should be replaced by individual class settings.
     color: #000000;
 }
 
+.user-menu .quick-access-panel li:hover, .user-menu .quick-access-panel li:focus {
+    /*background-color: var(--highlight-medium);*/
+  background-color: #CCCCCC;
+}
+
 .btn-flat:hover {
     background: #e5edef;
 }
