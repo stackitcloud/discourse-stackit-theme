@@ -16,6 +16,7 @@
 
 $border-color: #ebebeb;
 $stackit-active: #e5edef;
+$highlight-hover: #eee207
 
 body {
   font-family: MuseoSansW05;
@@ -33,12 +34,25 @@ body {
 
 #create-topic {
   color: var(--primary);
-  background-color: var(--secondary);
+  background-color: var(--highlight);
+}
+
+#create-topic:hover {
+  background-color: $highlight-hover;
+  color: var(--primary);
 }
 
 .nav-pills > li a.active {
   color: var(--primary);
   background-color: $stackit-active;
+}
+
+tbody {
+  border-color: $stackit-active;
+}
+
+tr {
+  border-color: $stackit-active;
 }
 
 :root {
