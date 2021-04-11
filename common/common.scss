@@ -31,7 +31,7 @@ body {
   border-radius: 100%;
 }
 
-.btn#create-topic {
+#create-topic {
   color: var(--primary);
   background-color: var(--secondary);
 }
@@ -39,4 +39,8 @@ body {
 .nav-pills > li a.active {
   color: var(--primary);
   background-color: $stackit-active;
+}
+
+:root {
+  --primary-high: $stackit-active;
 }
