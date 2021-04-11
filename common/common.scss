@@ -136,3 +136,11 @@ tbody {
 tr {
   border-color: var(--primary-low);
 }
+
+.d-header-icons .d-icon {
+  color: var(--header_primary);
+}
+
+.discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus {
+  background-color: transparent;
+}
