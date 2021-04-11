@@ -76,6 +76,14 @@ body {
   background-color: var(--quaternary);
 }
 
+.admin-controls .nav-pills > li a.active {
+  background: var(--quaternary);
+}
+
+.admin-customize .themes-list-container .themes-list-item.selected {
+  background-color: var(--quaternary);
+}
+
 .badge-wrapper.bullet span.badge-category {
   color: var(--primary);
 }
