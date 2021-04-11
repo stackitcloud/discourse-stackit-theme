@@ -9,11 +9,7 @@ body {
   background-color: #fff;
 }
 
-.badge-wrapper.bullet {
-  span.badge-category-parent-bg {
-    display: none;
-  }
-  span.badge-category-parent-bg + .badge-category-bg {
-    width: 9px;
-  }
+.badge-wrapper.bullet .badge-category-parent-bg,
+.badge-wrapper.bullet .badge-category-bg {
+  border-radius: 100%;
 }
