@@ -82,6 +82,7 @@ body {
 
 .admin-customize .themes-list-container .themes-list-item.selected {
   background-color: var(--quaternary);
+  color: var(--primary);
 }
 
 .badge-wrapper.bullet span.badge-category {
@@ -109,6 +110,7 @@ body {
 .menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus, .menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
   background-color: var(-tertiary-low);
 }
+
 
 .nav-pills>li a.active {
   color: var(--primary);
