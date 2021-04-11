@@ -1,4 +1,7 @@
-@import url('https://cdn.apps.01.cf.eu01.stackit.cloud/fonts/museo/MuseoSansW05-300.woff2');
+@font-face {
+  font-family: MuseoSansW05;
+  src: url($museoSansW05) format('woff2')
+}
 
 body {
   margin: 0;

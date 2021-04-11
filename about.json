@@ -2,6 +2,9 @@
   "name": "STACKIT Theme",
   "about_url": "https://stackit.de/de/ueber-uns/",
   "license_url": "https://github.com/STACKIT-Cloud/discourse-stackit-theme/blob/master/LICENSE.txt",
+  "assets": {
+    "museoSansW05": "https://cdn.apps.01.cf.eu01.stackit.cloud/fonts/museo/MuseoSansW05-300.woff2"
+  },
   "color_schemes": {
     "STACKIT_NT": {
       "primary": "045462",
