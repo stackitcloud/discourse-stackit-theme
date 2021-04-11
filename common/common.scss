@@ -22,6 +22,10 @@ body {
   font-weight: 300;
 }
 
+.topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
+  color: var(--primary);
+}
+
 .timeline-container .topic-timeline .timeline-scrollarea {
    border-color: var(--primary-low);
 }
@@ -34,7 +38,6 @@ body {
 .badge-wrapper.bullet .badge-category-bg {
   border-radius: 100%;
 }
-
 
 #create-topic {
   color: var(--primary);
