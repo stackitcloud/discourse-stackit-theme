@@ -39,8 +39,12 @@ body {
   background-color: var(--highlight);
 }
 
-#create-topic .btn:hover #create-topic .btn.btn-hover {
+#create-topic > .btn:hover .btn.btn-hover {
   background-color: $highlight-hover;
+  color: var(--primary);
+}
+
+.categories-list .category h3 .d-icon, .categories-list .category h4 .d-icon {
   color: var(--primary);
 }
 
