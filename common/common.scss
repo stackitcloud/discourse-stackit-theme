@@ -3,6 +3,7 @@
   font-weight: 300;
   src: url($museoSansW05300) format('woff2')
 }
+/*
 @font-face {
   font-family: MuseoSansW05;
   font-weight: 500;
@@ -12,7 +13,7 @@
   font-family: MuseoSansW05;
   font-weight: 700;
   src: url($museoSansW05700) format('woff2')
-}
+}*/
 
 $border-color: #ebebeb;
 $stackit-active: #e5edef;
@@ -47,7 +48,13 @@ body {
   background-color: $stackit-active;
 }
 
+tbody {
+  border-color: $border-color;
+}
 
+tr {
+  border-color: $border-color;
+}
 
 :root {
   --primary-high: $stackit-active;
