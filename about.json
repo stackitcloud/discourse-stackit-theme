@@ -2,19 +2,29 @@
   "name": "STACKIT Theme",
   "about_url": "https://stackit.de/de/ueber-uns/",
   "license_url": "https://github.com/STACKIT-Cloud/discourse-stackit-theme/blob/master/LICENSE.txt",
+  "assets": {
+    "museoSansW05300": "assets/MuseoSansW05-300.woff2",
+    "museoSansW05500": "assets/MuseoSansW05-500.woff2",
+    "museoSansW05700": "assets/MuseoSansW05-700.woff2"
+  },
   "color_schemes": {
-    "STACKIT": {
-      "primary": "045462",
-      "secondary": "f8ec17",
-      "tertiary": "000000",
-      "quaternary": "c5c5c5",
+    "STACKIT_NT": {
+      "primary": "424242",
+      "secondary": "ffffff",
+      "tertiary": "424242",
+      "quaternary": "e5edef",
       "header_background": "045462",
       "header_primary": "ffffff",
       "highlight": "f8ec17",
       "danger": "f44336",
       "success": "4ab54f",
-      "love": "fa6c8d"
+      "love": "fa6c8d",
+      "primary-low-mid": "999999",
+      "primary-low": "ebebeb",
+      "primary-high": "424242",
+      "primary-medium": "424242",
+      "tertiary-low": "e5edef",
+      "primary-high-or-secondary-low": "424242"
     }
-
   }
 }
