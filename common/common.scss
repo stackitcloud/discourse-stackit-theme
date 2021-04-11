@@ -89,6 +89,14 @@ body {
   background-color: $highlight-hover;
 }
 
+.nav-pills>li a.active {
+  color: var(--primary);
+}
+
+.nav-pills>li>a:hover {
+  color: var(--primary);
+}
+
 .btn .d-icon {
   color: var(--primary);
 }
