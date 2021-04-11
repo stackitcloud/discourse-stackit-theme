@@ -16,7 +16,7 @@
 }
 
 $border-color: #ebebeb;
-$stackit-active: #e5edef;
+
 $highlight-hover: #eee207;
 
 body {
@@ -55,7 +55,7 @@ body {
 
 .nav-pills > li a.active {
   color: var(--primary);
-  background-color: $stackit-active;
+  background-color: var(--primary-high);
 }
 
 tbody {
@@ -64,8 +64,4 @@ tbody {
 
 tr {
   border-color: $border-color;
-}
-
-:root {
-  --primary-high: $stackit-active;
 }
