@@ -156,3 +156,7 @@ div.menu-links-header button:hover, div.menu-links-header button:focus {
 .user-menu .quick-access-panel li:hover, .user-menu .quick-access-panel li:focus {
   background-color: var(--quaternary);
 }
+
+.select-kit .select-kit-row.is-selected {
+  background: var(--quaternary);
+}
