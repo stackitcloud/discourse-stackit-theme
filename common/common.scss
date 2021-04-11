@@ -97,7 +97,7 @@ body {
   background-color: $highlight-hover;
 }
 .menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus, .menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
-  background-color: var(--primary-high);
+  background-color: var(-tertiary-low);
 }
 
 .nav-pills>li a.active {
