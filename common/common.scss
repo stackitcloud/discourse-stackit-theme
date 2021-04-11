@@ -3,7 +3,7 @@
   font-weight: 300;
   src: url($museoSansW05300) format('woff2')
 }
-/*
+
 @font-face {
   font-family: MuseoSansW05;
   font-weight: 500;
@@ -13,11 +13,11 @@
   font-family: MuseoSansW05;
   font-weight: 700;
   src: url($museoSansW05700) format('woff2')
-}*/
+}
 
 $border-color: #ebebeb;
 $stackit-active: #e5edef;
-$highlight-hover: #eee207
+$highlight-hover: #eee207;
 
 body {
   font-family: MuseoSansW05;
@@ -32,7 +32,8 @@ body {
 .badge-wrapper.bullet .badge-category-bg {
   border-radius: 100%;
 }
-/*
+
+
 #create-topic {
   color: var(--primary);
   background-color: var(--highlight);
@@ -59,4 +60,3 @@ tr {
 :root {
   --primary-high: $stackit-active;
 }
- */
