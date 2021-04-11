@@ -80,6 +80,10 @@ body {
   color: var(--primary);
 }
 
+.list-controls .combo-box .combo-box-header {
+  border-color: var(--primary-low);
+}
+
 #create-topic .btn:hover .d-icon #create-topic .btn.btn-hover .d-icon {
   color: var(--primary);
   background-color: $highlight-hover;
