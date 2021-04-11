@@ -1,6 +1,17 @@
 @font-face {
   font-family: MuseoSansW05;
-  src: url($museoSansW05) format('woff2')
+  font-weight: 300;
+  src: url($museoSansW05300) format('woff2')
+}
+@font-face {
+  font-family: MuseoSansW05;
+  font-weight: 500;
+  src: url($museoSansW05500) format('woff2')
+}
+@font-face {
+  font-family: MuseoSansW05;
+  font-weight: 700;
+  src: url($museoSansW05700) format('woff2')
 }
 
 body {

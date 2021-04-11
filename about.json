@@ -3,7 +3,9 @@
   "about_url": "https://stackit.de/de/ueber-uns/",
   "license_url": "https://github.com/STACKIT-Cloud/discourse-stackit-theme/blob/master/LICENSE.txt",
   "assets": {
-    "museoSansW05": "assets/MuseoSansW05-300.woff2"
+    "museoSansW05300": "assets/MuseoSansW05-300.woff2",
+    "museoSansW05500": "assets/MuseoSansW05-500.woff2",
+    "museoSansW05700": "assets/MuseoSansW05-700.woff2"
   },
   "color_schemes": {
     "STACKIT_NT": {
