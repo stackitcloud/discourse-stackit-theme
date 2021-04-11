@@ -15,7 +15,6 @@
   src: url($museoSansW05700) format('woff2')
 }
 
-$border-color: #ebebeb;
 $highlight-hover: #eee207;
 
 body {
@@ -97,9 +96,9 @@ body {
 }
 
 tbody {
-  border-color: $border-color;
+  border-color: var(--primary-low);
 }
 
 tr {
-  border-color: $border-color;
+  border-color: var(--primary-low);
 }
