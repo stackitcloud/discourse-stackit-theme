@@ -15,7 +15,7 @@
 }
 
 $border-color: #ebebeb;
-
+$stackit-active: #e5edef;
 
 body {
   font-family: MuseoSansW05;
@@ -31,7 +31,12 @@ body {
   border-radius: 100%;
 }
 
-.btn #create-topic {
+.btn#create-topic {
   color: var(--primary);
   background-color: var(--secondary);
+}
+
+.nav-pills > li a.active {
+  color: var(--primary);
+  background-color: $stackit-active;
 }
