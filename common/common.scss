@@ -148,3 +148,11 @@ tr {
 .discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus {
   background-color: transparent;
 }
+
+div.menu-links-header button:hover, div.menu-links-header button:focus {
+  background-color: var(--quaternary);
+}
+
+.user-menu .quick-access-panel li:hover, .user-menu .quick-access-panel li:focus {
+  background-color: var(--quaternary);
+}
