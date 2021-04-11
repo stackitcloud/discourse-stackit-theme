@@ -38,7 +38,7 @@ body {
   background-color: var(--highlight);
 }
 
-#create-topic:hover {
+#create-topic .btn:hover {
   background-color: $highlight-hover;
   color: var(--primary);
 }
