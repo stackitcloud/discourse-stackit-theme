@@ -96,6 +96,16 @@ body {
   color: var(--primary);
   background-color: $highlight-hover;
 }
+
+.discourse-no-touch .btn:hover .d-icon, .discourse-no-touch .btn.btn-hover .d-icon {
+  color: var(--primary);
+}
+
+.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
+  background: var(--tertiary-low);
+  color: var(--primary);
+}
+
 .menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus, .menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
   background-color: var(-tertiary-low);
 }
