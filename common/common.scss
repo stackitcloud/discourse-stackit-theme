@@ -83,6 +83,10 @@ body {
   color: var(--primary);
 }
 
+.btn-primary {
+  color: var(--quaternary);
+}
+
 .nav-pills > li a.active {
   color: var(--primary);
   background-color: var(--primary-high);
