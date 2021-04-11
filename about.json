@@ -11,7 +11,7 @@
     "STACKIT_NT": {
       "primary": "424242",
       "secondary": "ffffff",
-      "tertiary": "045462",
+      "tertiary": "424242",
       "quaternary": "e5edef",
       "header_background": "045462",
       "header_primary": "ffffff",
@@ -21,9 +21,10 @@
       "love": "fa6c8d",
       "primary-low-mid": "999999",
       "primary-low": "ebebeb",
-      "primary-high": "e5edef",
-      "primary-medium": "045462",
-      "tertiary-low": "e5edef"
+      "primary-high": "424242",
+      "primary-medium": "424242",
+      "tertiary-low": "e5edef",
+      "primary-high-or-secondary-low": "424242"
     }
   }
 }
