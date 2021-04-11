@@ -39,13 +39,14 @@ body {
   background-color: var(--highlight);
 }
 
-#create-topic .btn:hover {
+#create-topic .btn:hover #create-topic .btn.btn-hover {
   background-color: $highlight-hover;
   color: var(--primary);
 }
 
-.discourse-no-touch .btn:hover .d-icon {
+.discourse-no-touch .btn:hover .d-icon .discourse-no-touch .btn.btn-hover .d-icon {
   color: var(--primary);
+  background-color: $highlight-hover;
 }
 
 .btn .d-icon {
