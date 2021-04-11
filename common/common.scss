@@ -19,6 +19,7 @@ $stackit-active: #e5edef;
 $highlight-hover: #eee207
 
 body {
+  font-family: MuseoSansW05;
   font-weight: 300;
 }
 
@@ -36,22 +37,18 @@ body {
   background-color: var(--highlight);
 }
 
-
+#create-topic:hover {
+  background-color: $highlight-hover;
+  color: var(--primary);
+}
 
 .nav-pills > li a.active {
   color: var(--primary);
   background-color: $stackit-active;
 }
-/*
-tbody {
-  border-color: $border-color;
-}
 
-tr {
-  border-color: $border-color;
-}
-*/
+
+
 :root {
   --primary-high: $stackit-active;
-  --font-family: MuseoSansW05;
 }
