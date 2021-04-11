@@ -11,8 +11,8 @@
     "STACKIT_NT": {
       "primary": "045462",
       "secondary": "ffffff",
-      "tertiary": "000000",
-      "quaternary": "c5c5c5",
+      "tertiary": "045462",
+      "quaternary": "e5edef",
       "header_background": "045462",
       "header_primary": "ffffff",
       "highlight": "f8ec17",
