@@ -16,7 +16,6 @@
 }
 
 $border-color: #ebebeb;
-
 $highlight-hover: #eee207;
 
 body {
@@ -45,6 +44,29 @@ body {
 }
 
 .categories-list .category h3 .d-icon, .categories-list .category h4 .d-icon {
+  color: var(--primary);
+}
+
+.categories-list .category .category-description {
+  color: var(--primary);
+}
+
+.badge-wrapper.bullet span.badge-category {
+  color: var(--primary);
+}
+.user-info .user-detail .username a {
+  color: var(--primary);
+}
+
+.user-info .user-detail .name {
+  color: var(--primary);
+}
+
+.menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus, .menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
+  background-color: var(--primary-high);
+}
+
+.badge-wrapper.bullet span.badge-category {
   color: var(--primary);
 }
 
