@@ -44,6 +44,10 @@ body {
   color: var(--primary);
 }
 
+#create-topic .btn:hover .d-icon {
+  color: var(--primary);
+}
+
 .nav-pills > li a.active {
   color: var(--primary);
   background-color: $stackit-active;
