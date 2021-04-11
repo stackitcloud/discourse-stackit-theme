@@ -14,16 +14,24 @@
   src: url($museoSansW05700) format('woff2')
 }
 
+$border-color: #ebebeb;
+$
+
 body {
   font-family: MuseoSansW05;
   font-weight: 300;
 }
 
-:root {
-  --bbcode-highlight: #d9d9d9;
+.list-controls .combo-box .combo-box-header {
+  border-color: $border-color;
 }
 
 .badge-wrapper.bullet .badge-category-parent-bg,
 .badge-wrapper.bullet .badge-category-bg {
   border-radius: 100%;
+}
+
+.btn #create-topic {
+  color: var(--primary);
+  background-color: var(--secondary);
 }
