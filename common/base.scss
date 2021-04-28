@@ -1,0 +1,22 @@
+// global variables --primary see about.json
+
+body {
+    font-family: MuseoSansW05;
+    font-weight: 300;
+}
+.btn .d-icon {
+    color: var(--primary);
+}
+
+.btn-primary {
+    background: var(--quaternary);
+    color: var(--primary);
+}
+
+tbody {
+    border-color: var(--primary-low);
+}
+
+tr {
+    border-color: var(--primary-low);
+}
