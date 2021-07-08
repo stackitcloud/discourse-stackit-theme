@@ -1,26 +1,8 @@
-@font-face {
-  font-family: MuseoSansW05;
-  font-weight: 300;
-  src: url($museoSansW05300) format('woff2')
-}
-
-@font-face {
-  font-family: MuseoSansW05;
-  font-weight: 500;
-  src: url($museoSansW05500) format('woff2')
-}
-@font-face {
-  font-family: MuseoSansW05;
-  font-weight: 700;
-  src: url($museoSansW05700) format('woff2')
-}
-
-$highlight-hover: #eee207;
-
-body {
-  font-family: MuseoSansW05;
-  font-weight: 300;
-}
+// ----------------------
+@import 'variables';
+@import 'font';
+@import 'base';
+// ----------------------
 
 .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
   color: var(--primary);
@@ -111,30 +93,12 @@ body {
   background-color: var(-tertiary-low);
 }
 
-
 .nav-pills>li a.active {
   color: var(--primary);
 }
 
 .nav-pills>li>a:hover {
   color: var(--primary);
-}
-
-.btn .d-icon {
-  color: var(--primary);
-}
-
-.btn-primary {
-  background: var(--quaternary);
-  color: var(--primary);
-}
-
-tbody {
-  border-color: var(--primary-low);
-}
-
-tr {
-  border-color: var(--primary-low);
 }
 
 .d-header-icons .d-icon {
